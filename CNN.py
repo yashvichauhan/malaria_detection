@@ -63,7 +63,7 @@ test_set= test_datagen.flow_from_directory('D:\\Jupyter\\cell-images\\test',
 #fitting the model
 r= model.fit_generator(training_set,
                        validation_data=test_set,
-                       epochs=5,
+                       epochs=15,
                        steps_per_epoch=len(training_set),
                        validation_steps=len(test_set))  
 
